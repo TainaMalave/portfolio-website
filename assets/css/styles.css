@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #16161a;
+}
+
+.home-page {
+  background: blue;
+  min-height: 80vh;
+  color: #fffffe;
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+
+.home-page span {
+  color: #7f5af0;
+}
+
+.home-page p {
+  color: #94a1b2;
+}
