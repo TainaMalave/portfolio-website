@@ -18,8 +18,12 @@
   
         <div class="main-content">
           <h1 class="title">hey, i'm <span>taina</span> 👋</h1>
-          <h1 class="sub-title">I create stuff, sometimes.</h1>
+          <h1 class="sub-title" id="type-effect"></h1>
           <p>I’m a computer science student based in New York. I have an interest in frontend and backend web development and tinkering with raspberry pis and arduinos.</p>
+        </div>
+
+        <div class="resume-btn">
+          <a href="assets/Malave_Taina_Resume.pdf" target="_blank" class="resumeBtn">View Resume</a>
         </div>
       </div>
     </main>
@@ -27,5 +31,20 @@
     <footer>
       <p>coded with &hearts; by <a href="www.github.com/tainamalave" target="_blank">taina</a> &copy; 2021.</p>
     </footer>
+
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script>
+
+        var app = document.getElementById('type-effect');
+
+        var typewriter = new Typewriter(app, {
+            loop: true
+        });
+
+        typewriter.typeString('<span style="color:white;">I create stuff, sometimes.</span')
+            .pauseFor(2500)
+            .deleteAll()
+            .start();
+    </script>
   </body>
 </html>
