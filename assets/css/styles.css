@@ -93,4 +93,7 @@ footer a {
   .type-writer-container {
     min-height: 12rem;
   }
+  .sub-title {
+    margin-top: 1.5rem;
+  }
 }
