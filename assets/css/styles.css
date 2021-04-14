@@ -49,6 +49,10 @@ main {
   color: #FFFFFE !important;
 }
 
+
+
+
+
 .resumeBtn {
   margin-top: 2rem;
 	background-color:transparent;
@@ -85,13 +89,8 @@ footer a {
   text-decoration: none;
 }
 
-@media only screen and (max-width: 600px) {
-
+@media screen and (max-width: 600px) {
   .type-writer-container {
-    min-height: 9.375rem;
-  }
-  
-  .main-content p {
-    margin-top: -1rem;
+    min-height: 12rem;
   }
 }
